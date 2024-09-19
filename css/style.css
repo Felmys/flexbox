@@ -1,0 +1,29 @@
+:root {
+        --bg:hsl(216, 100%, 4%);
+        --box:hsl(46, 100%, 50%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--bg);
+}
+
+.box {
+    background-color:var(--box) ;
+    border: 1px solid #000;
+    width: 20rem;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap:wrap; 
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
